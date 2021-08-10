@@ -4,7 +4,6 @@ import * as dataSet from "./data/dataSet.json";
 
 const Chart = ({ endDates }) => {
 
-    console.log("those are end dates: ", endDates)
   const data = {
     labels: endDates.map(
       (endDate) => endDate.ExpiryDateLabel
